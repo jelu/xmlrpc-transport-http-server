@@ -13,7 +13,19 @@ WriteMakefile(
       : ()),
     PREREQ_PM => {
         'Test::More' => 0,
+        'SOAP::Transport::HTTP' => 0.71,
+        'XMLRPC::Lite' => 0.71,
+        'XMLRPC::Transport::HTTP' => 0.71,
     },
+    (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
+        (META_ADD => {
+            resources => {
+                homepage   => 'http://github.com/jelu/lim/wiki',
+                repository => 'http://github.com/jelu/lim',
+                bugtracker => 'http://github.com/jelu/lim/issues',
+            },
+        })
+    ),
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'XMLRPC-Transport-HTTP-Server-*' },
 );

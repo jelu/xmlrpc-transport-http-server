@@ -4,7 +4,7 @@ use strict;
 
 =head1 NAME
 
-XMLRPC::Transport::HTTP::Server
+XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
 =head1 VERSION
 
