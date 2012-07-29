@@ -1,16 +1,10 @@
-XMLRPC-Transport-HTTP-Server
+XMLRPC-Transport-HTTP-Server - XMLRPC::Lite HTTP Server
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+ABOUT
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
-
+This module extends the XMLRPC::Lite suite with a XMLRPC::Transport::HTTP::Server
+which is just a SOAP::Transport::HTTP::Server with the XMLRPC::Server functions
+for understanding the XMLRPC protocol.
 
 INSTALLATION
 
@@ -30,17 +24,11 @@ perldoc command.
 
 You can also look for information at:
 
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=XMLRPC-Transport-HTTP-Server
+    Issue tracker (report bugs here)
+        http://github.com/jelu/xmlrpc-transport-http-server/issues
 
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/XMLRPC-Transport-HTTP-Server
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/XMLRPC-Transport-HTTP-Server
-
-    Search CPAN
-        http://search.cpan.org/dist/XMLRPC-Transport-HTTP-Server/
+    GIT repository
+        http://github.com/jelu/xmlrpc-transport-http-server
 
 
 LICENSE AND COPYRIGHT
