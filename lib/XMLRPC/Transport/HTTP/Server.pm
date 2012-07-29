@@ -8,7 +8,7 @@ XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
 =head1 VERSION
 
-Version 0.1
+Version 0.101
 
 =cut
 
@@ -18,15 +18,23 @@ use XMLRPC::Transport::HTTP;
 
 @XMLRPC::Transport::HTTP::Server::ISA = qw(SOAP::Transport::HTTP::Server);
 
-our $VERSION = '0.1';
+our $VERSION = '0.101';
 
 =head1 SYNOPSIS
 
-...
+=over 4
 
-=head1 SUBROUTINES/METHODS
+use XMLRPC::Transport::HTTP::Server;
 
-=head2 function1
+$server = XMLRPC::Transport::HTTP::Server->new(...);
+
+=back
+
+=head1 DESCRIPTION
+
+This module extends the XMLRPC::Lite suite with a XMLRPC::Transport::HTTP::Server
+which is just a L<SOAP::Transport::HTTP::Server> with the L<XMLRPC::Server>
+functions for understanding the XMLRPC protocol.
 
 =cut
 
@@ -40,12 +48,7 @@ Jerry Lundström, C<< <lundstrom.jerry at gmail.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-lim at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=XMLRPC::Transport::HTTP::Server>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-
-
+Please report any bugs or feature requests to L<https://github.com/jelu/xmlrpc-transport-http-server/issues>.
 
 =head1 SUPPORT
 
@@ -53,32 +56,17 @@ You can find documentation for this module with the perldoc command.
 
     perldoc XMLRPC::Transport::HTTP::Server
 
-
 You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * Lim issue tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=XMLRPC::Transport::HTTP::Server>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/XMLRPC::Transport::HTTP::Server>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/XMLRPC::Transport::HTTP::Server>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/XMLRPC::Transport::HTTP::Server/>
+L<https://github.com/jelu/xmlrpc-transport-http-server/issues>
 
 =back
 
-
 =head1 ACKNOWLEDGEMENTS
-
 
 =head1 LICENSE AND COPYRIGHT
 
