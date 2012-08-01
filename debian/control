@@ -5,12 +5,12 @@ Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: libsoap-lite-perl (>= 0.71), perl
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
 Standards-Version: 3.9.1
-Homepage: http://search.cpan.org/dist/XMLRPC-Transport-HTTP-Server/
+Homepage: http://github.com/jelu/xmlrpc-transport-http-server/wiki
 
 Package: libxmlrpc-transport-http-server-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}, libsoap-lite-perl (>= 0.71), perl
-Description: XMLRPC::Lite HTTP Server
- (no description was found)
- .
- This description was automagically extracted from the module by dh-make-perl.
+Description: XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
+ This module extends the XMLRPC::Lite suite with a XMLRPC::Transport::HTTP::Server
+ which is just a SOAP::Transport::HTTP::Server with the XMLRPC::Server functions
+ for understanding the XMLRPC protocol.
