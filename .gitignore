@@ -13,3 +13,5 @@ META.yml
 MYMETA.yml
 nytprof.out
 pm_to_blib
+pod2htm*.tmp
+XMLRPC-Transport-HTTP-Server-*
