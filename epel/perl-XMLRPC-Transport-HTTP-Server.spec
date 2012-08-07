@@ -1,9 +1,7 @@
-%global subver 1
-
 Name:           perl-XMLRPC-Transport-HTTP-Server
 Version:        0.12
 Release:        1%{?dist}
-Summary:        xxx
+Summary:        XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -19,7 +17,9 @@ BuildRequires:  perl(Test::Simple)
 Requires:  perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
-xxx
+This module extends the XMLRPC::Lite suite with a XMLRPC::Transport::HTTP::Server
+which is just a SOAP::Transport::HTTP::Server with the XMLRPC::Server functions
+for understanding the XMLRPC protocol.
 
 
 %prep
@@ -38,8 +38,6 @@ find $RPM_BUILD_ROOT -type f -name .packlist -exec rm -f {} ';'
 
 
 %check
-# PERL_ANYEVENT_NET_TESTS shoudn't be set to avoid network tests
-# on our builder.
 make test
 
 
