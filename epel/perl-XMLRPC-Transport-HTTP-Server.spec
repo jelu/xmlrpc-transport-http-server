@@ -1,5 +1,5 @@
 Name:           perl-XMLRPC-Transport-HTTP-Server
-Version:        0.12
+Version:        0.13
 Release:        1%{?dist}
 Summary:        XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
@@ -53,6 +53,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 19 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.13-1
+- New upsteam release.
+
 * Tue Aug 07 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.12-1
 - Initial package for Fedora
 

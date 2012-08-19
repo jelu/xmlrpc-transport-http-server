@@ -1,5 +1,11 @@
 Revision history for XMLRPC-Transport-HTTP-Server
 
+0.13    2012-08-19
+        - Removed pod-coverage since it just fails, the 3 subs don't need
+        individual documentation since its covered by XMLRPC::Server and
+        XMLRPC::Transport::HTTP::CGI.
+        - Added encoding to pod.
+
 0.12    2012-08-03
         First version, released on an unsuspecting world.
 

@@ -1,3 +1,9 @@
+libxmlrpc-transport-http-server-perl (0.13-1~unstable+1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sun, 19 Aug 2012 10:56:30 +0200
+
 libxmlrpc-transport-http-server-perl (0.12-1~unstable+1) unstable; urgency=low
 
   * New release using git flow.
