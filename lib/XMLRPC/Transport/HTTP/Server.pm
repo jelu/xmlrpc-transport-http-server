@@ -2,6 +2,8 @@ package XMLRPC::Transport::HTTP::Server;
 
 use strict;
 
+=encoding utf8
+
 =head1 NAME
 
 XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
