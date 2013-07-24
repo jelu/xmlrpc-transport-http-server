@@ -11,8 +11,8 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
 BuildRequires:  perl(ExtUtils::MakeMaker)
-# Needed for test
 BuildRequires:  perl(Test::Simple)
+BuildRequires:  perl(SOAP::Lite)
 
 Requires:  perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
