@@ -10,7 +10,7 @@ XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
@@ -20,7 +20,7 @@ use XMLRPC::Transport::HTTP;
 
 @XMLRPC::Transport::HTTP::Server::ISA = qw(SOAP::Transport::HTTP::Server);
 
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 =head1 SYNOPSIS
 

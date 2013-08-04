@@ -1,5 +1,5 @@
 Name:           perl-XMLRPC-Transport-HTTP-Server
-Version:        0.13
+Version:        0.14
 Release:        1%{?dist}
 Summary:        XMLRPC::Transport::HTTP::Server - XMLRPC::Lite HTTP Server
 
@@ -53,8 +53,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 04 2013 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.14-1
+- New upsteam release.
+  - Remove pod-coverage from MANIFEST also.
+  - Rewrite Makefile.PL to better check ExtUtils::MakeMaker version and
+    use BUILD_REQUIRES.
+
 * Sun Aug 19 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.13-1
 - New upsteam release.
+  - Removed pod-coverage since it just fails, the 3 subs don't need
+    individual documentation since its covered by XMLRPC::Server and
+    XMLRPC::Transport::HTTP::CGI.
+  - Added encoding to pod.
 
 * Tue Aug 07 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.12-1
 - Initial package for Fedora

@@ -1,6 +1,19 @@
+libxmlrpc-transport-http-server-perl (0.14-1~unstable+1) unstable; urgency=low
+
+  * New release v0.14.
+    - Remove pod-coverage from MANIFEST also.
+    - Rewrite Makefile.PL to better check ExtUtils::MakeMaker version and
+      use BUILD_REQUIRES.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sun, 04 Aug 2013 11:52:07 +0200
+
 libxmlrpc-transport-http-server-perl (0.13-1~unstable+1) unstable; urgency=low
 
   * New upstream release.
+    - Removed pod-coverage since it just fails, the 3 subs don't need
+      individual documentation since its covered by XMLRPC::Server and
+      XMLRPC::Transport::HTTP::CGI.
+    - Added encoding to pod.
 
  -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sun, 19 Aug 2012 10:56:30 +0200
 
