@@ -1,3 +1,9 @@
+libxmlrpc-transport-http-server-perl (0.14-2~unstable+1) unstable; urgency=low
+
+  * Package fixes.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sat, 31 Jan 2015 15:13:18 +0100
+
 libxmlrpc-transport-http-server-perl (0.14-1~unstable+1) unstable; urgency=low
 
   * New release v0.14.
