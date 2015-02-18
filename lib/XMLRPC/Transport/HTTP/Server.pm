@@ -72,7 +72,7 @@ L<https://github.com/jelu/xmlrpc-transport-http-server/issues>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012-2013 Jerry Lundström.
+Copyright 2012-2015 Jerry Lundström.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
